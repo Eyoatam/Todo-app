@@ -26,4 +26,4 @@ npm run build
 npm run lint
 ```
 
-Website On [Netlify](https://vue-js-todo-app.netlify.app/)
+Check Out The Live Demo [Here](https://vue-js-todo-app.netlify.app/)
