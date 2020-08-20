@@ -1,6 +1,8 @@
 # Vue Js Todo_app
 
-## Project setup
+## Quick setup
+
+### install Dependencies
 
 ```
 npm install
