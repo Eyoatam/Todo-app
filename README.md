@@ -1,5 +1,7 @@
 # Vue Js Todo_app
 
+# Check Out The Live Demo on [Netlify](https://vue-js-todo-app.netlify.app/)
+
 ## Quick setup
 
 ### install Dependencies
@@ -25,5 +27,3 @@ npm run build
 ```
 npm run lint
 ```
-
-Check Out The Live Demo on [Netlify](https://vue-js-todo-app.netlify.app/)
