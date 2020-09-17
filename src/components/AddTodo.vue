@@ -8,6 +8,9 @@
         class="input"
         placeholder="Add Todo..."
       />
+      <v-btn class="mx-2 pl-2" fab dark @click.prevent="addTodo">
+        <v-icon>mdi-plus</v-icon>
+      </v-btn>
     </form>
   </div>
 </template>
@@ -51,7 +54,7 @@ input[type="text"] {
   padding: 5px;
 }
 .input {
-  width: calc(100% - 60px);
+  width: calc(100% - 40px);
   min-height: 50px;
   border: 0;
   border-radius: 5px;
