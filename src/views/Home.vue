@@ -45,7 +45,7 @@ export default {
   },
   created() {
     axios
-      .get("https://jsonplaceholder.typicode.com/todos?_limit=8")
+      .get("https://jsonplaceholder.typicode.com/todos?_limit=5")
       .then((res) => (this.todos = res.data))
       .catch((err) => console.log(err));
   },
@@ -60,12 +60,17 @@ export default {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  /* background-color: #e4ecee; */
-  background-color: #343a40;
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-attachment: fixed;
+  font-family: "Nunito", sans-serif;
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  margin-top: 10rem;
 }
 
-.btn {
+/* .btn {
   display: inline-block;
   color: #fff;
   background-color: #4b545e;
@@ -75,5 +80,5 @@ body {
 .btn:hover {
   color: #fff;
   background: #292d31;
-}
+} */
 </style>

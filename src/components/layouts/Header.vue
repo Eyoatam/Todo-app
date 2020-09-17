@@ -2,8 +2,8 @@
   <header class="header">
     <h1>Vue.js TodoList</h1>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link class="router" to="/">Home</router-link> |
+      <router-link class="router" to="/about">About</router-link>
     </div>
   </header>
 </template>
@@ -16,14 +16,18 @@ export default {
 
 <style scoped>
 .header {
-  background: #343a40;
+  /* background: #343a40; */
   color: #fff;
-  text-align: center;
-  padding: 10px;
+  text-align: left;
+  margin-bottom: 5rem;
 }
 
-.header a {
+h1 {
+  padding-bottom: 1rem;
+}
+
+.router {
   color: #fff;
-  padding-right: 5px;
+  padding: 0.5rem;
 }
 </style>
