@@ -1,26 +1,13 @@
-<<<<<<< HEAD
-# Vue Js quizApp
-=======
 # Vue Js Todo_app
->>>>>>> dceb461848f461b3e8358cacd2a708d2635f53be
+
+## ScreenShot of the site <br>
+<hr>
+<img src="https://github.com/Eyoatam/Vue-Todo-List/blob/master/src/assets/screenshot.png" alt="screenshot">
+<hr>
 
 ## Quick setup
 
 ```bash
-<<<<<<< HEAD
-# Install dependencies
-npm install
-
-# Compiles and hot-reloads for development on localhost:8080
-npm run serve
-
-# Compiles and minifies for production
-npm run build
-
-# Lints and fixes files
-npm run lint
-
-=======
 ### Install Dependencies
 npm install
 
@@ -32,5 +19,4 @@ npm run build
 
 ### Lints and fixes files
 npm run lint
->>>>>>> dceb461848f461b3e8358cacd2a708d2635f53be
 ```
