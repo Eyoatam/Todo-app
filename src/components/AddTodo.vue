@@ -31,7 +31,7 @@ export default {
       this.$notify({
         group: "cool",
         type: "success",
-        title: "Todo Successfully <b> content </b> Added",
+        title: "Todo Successfully Added",
       });
       // Send up to parent
       this.$emit("add-todo", newTodo);
