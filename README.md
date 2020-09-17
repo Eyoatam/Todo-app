@@ -2,7 +2,7 @@
 
 ## ScreenShot of the site <br>
 <hr>
-<img src="https://github.com/Eyoatam/Vue-Todo-List/blob/master/src/assets/screenshot.png" alt="screenshot">
+<img src="https://github.com/Eyoatam/Vue-Todo-List/blob/master/src/assets/site.png" alt="screenshot">
 <hr>
 
 ## Quick setup
