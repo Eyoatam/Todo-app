@@ -1,4 +1,4 @@
-# Vue Js Todo_app
+# Vue Js Todo_Lists App
 
 ## ScreenShot of the site <br>
 <hr>
